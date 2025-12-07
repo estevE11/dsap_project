@@ -1,0 +1,6 @@
+/.DS_Store
+/My_Ensemble_Dataset
+*/__pycache__
+/pyass
+/run/*
+/__pycache__
