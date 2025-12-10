@@ -104,7 +104,6 @@ def estimate_transfer_function_calibration(X_stft, active_masks, energy_threshol
                     # Average spectral ratio (complex division)
                     ratio = X_n[valid] / (X_m[valid] + 1e-10)
                     H_tilde[n, m, f] = np.mean(ratio)
-    
     return H_tilde
 
 

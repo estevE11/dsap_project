@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.12.7)  7 DEC 2025 18:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.12.7)  10 DEC 2025 12:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -744,7 +744,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  80i,13n,93p,1164b,274s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on dsap_icassp_report.pdf (2 pages, 350649 bytes).
+Output written on dsap_icassp_report.pdf (2 pages, 366357 bytes).
 PDF statistics:
  84 PDF objects out of 1000 (max. 8388607)
  50 compressed objects within 1 object stream

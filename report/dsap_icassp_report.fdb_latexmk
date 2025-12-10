@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1765126992.1473 "/home/esteve/dev/dsap_project/report/dsap_icassp_report.tex" "dsap_icassp_report.pdf" "dsap_icassp_report" 1765126992.76616 0
-  "../run/ops_comparison.png" 1765103942.06163 108424 d0b1040a6b91ea639942714ba1bf58f1 ""
-  "../run/sdr_comparison.png" 1765103942.32553 82088 51f09cce3b4ba09edb71e3ea9922d40e ""
+["pdflatex"] 1765367403.65871 "/home/esteve/dev/dsap_project/report/dsap_icassp_report.tex" "dsap_icassp_report.pdf" "dsap_icassp_report" 1765367404.28384 0
+  "../run/ops_comparison.png" 1765367402.39006 124260 d6e7e56ae081598c2e5fa6cacef9f3ff ""
+  "../run/sdr_comparison.png" 1765367402.95965 85659 a4886d70aa4ac0dc94ba76f12ce7a56d ""
   "/home/esteve/.texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1765126467 2008246 547239c2337468d807049d7238b5ba35 ""
-  "/home/esteve/dev/dsap_project/report/dsap_icassp_report.tex" 1765126991.97303 9815 bf9faba1c02e7e7676a79a5e24fe2b52 ""
+  "/home/esteve/dev/dsap_project/report/dsap_icassp_report.tex" 1765126993.00496 9815 bf9faba1c02e7e7676a79a5e24fe2b52 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1755987285 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc" 1755987285 3136 bbe665bd0bb471a2da1e8fd326cff9fa ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1755987285 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
@@ -120,8 +120,8 @@
   "/usr/share/texmf-dist/tex/latex/xpatch/xpatch.sty" 1755987285 8314 7803f78066c4f9d008405191a4b43073 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1765126515 5311557 9da84c45f5b388655502706482323571 ""
-  "dsap_icassp_report.aux" 1765126992.69295 2199 600f2f19a31b53743ded9d38f75fade5 "pdflatex"
-  "dsap_icassp_report.tex" 1765126991.97303 9815 bf9faba1c02e7e7676a79a5e24fe2b52 ""
+  "dsap_icassp_report.aux" 1765367404.20707 2199 600f2f19a31b53743ded9d38f75fade5 "pdflatex"
+  "dsap_icassp_report.tex" 1765126993.00496 9815 bf9faba1c02e7e7676a79a5e24fe2b52 ""
   (generated)
   "dsap_icassp_report.aux"
   "dsap_icassp_report.log"

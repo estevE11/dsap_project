@@ -316,8 +316,8 @@ def main():
         }
         try:
             peass_result = PEASS_ObjectiveMeasure(
-                originalFiles=[target_v_1s_path],
-                estimateFile=out_v_1s_path,
+                originalFiles=[target_v_30s_path],
+                estimateFile=out_v_30s_path,
                 options=peass_options
             )
             print(f"OPS (Overall Perceptual Score):    {peass_result['OPS']:.2f}")
