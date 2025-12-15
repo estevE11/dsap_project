@@ -35,12 +35,14 @@ We adopt the virtual studio EnsembleSet data (BBCSO) and simulate room acoustics
 
 \section{Techniques}
 \subsection{Blind Wiener Interference Canceller}
-Following \cite{kokkinis2012}, we treat the non-diagonal mic as interference and estimate scalar filters that minimize output power:
+The multichannel Wiener filter adaptively suppresses interference by leveraging statistical correlations between channels. In close-miked recordings, bleed from other instruments acts as structured interference that can be estimated and subtracted using the other microphone signals as noise references.
+
+Our implementation operates in the Short-Time Fourier Transform (STFT) domain. For each frequency bin, we estimate a filter that minimizes the mean-square error between the target microphone and a filtered version of the reference microphone. By computing the cross-correlation between the mixture and reference, and the autocorrelation of the reference, we solve the Wiener-Hopf equations to derive optimal filter coefficients. This effectively treats the non-diagonal microphone signal as a reference for the interference \cite{kokkinis2012}:
 \begin{equation}
     \hat{w}_{12} = \frac{\mathbb{E}[x_1 x_2]}{\mathbb{E}[x_2^2]}, \quad 
     \hat{s}_1 = x_1 - \hat{w}_{12} x_2,
 \end{equation}
-and symmetrically for $\hat{s}_2$. This requires no calibration but assumes low leakage and uncorrelated sources.
+and symmetrically for $\hat{s}_2$. While effective for mild, instantaneous bleed, this blind approach struggles with significant delays or reverberation where the interference is not a simple gain-scaled copy of the reference.
 
 \subsection{Maximum Likelihood Estimation (Das~et~al.)}
 Proposed in \cite{das2021}, this method formulates cross-talk cancellation as a joint optimization problem in the Short-Time Fourier Transform (STFT) domain. Unlike the Wiener filter \cite{kokkinis2012}, which relies on cross-correlation statistics and assumes determined mixtures (equal mics and sources), the MLE framework can handle over-determined cases ($N \geq M$) and accounts for room acoustics via a frequency-dependent mixing model.
