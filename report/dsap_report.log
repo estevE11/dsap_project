@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.12.7)  10 DEC 2025 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.12.7)  15 DEC 2025 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/esteve/dev/dsap_project/report/dsap_icassp_report.tex
-(/home/esteve/dev/dsap_project/report/dsap_icassp_report.tex
+**/home/esteve/dev/dsap_project/report/dsap_report.tex
+(/home/esteve/dev/dsap_project/report/dsap_report.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -395,8 +395,8 @@ File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 18.
- (./dsap_icassp_report.aux)
-\openout1 = `dsap_icassp_report.aux'.
+ (./dsap_report.aux)
+\openout1 = `dsap_report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 18.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 18.
@@ -633,89 +633,102 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 10.0pt on input line 30.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 7.3pt on input line 30.
-LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 10.0pt on input line 40.
-LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 7.3pt on input line 40.
-LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 5.5pt on input line 40.
 
 
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 10.0pt on input line 50.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 7.3pt on input line 50.
+LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
+(Font)              scaled to size 5.5pt on input line 50.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 68.
+(/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+LaTeX Warning: Citation `scheibler2018' on page 1 undefined on input line 68.
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 70.
+(Font)              scaled to size 7.3pt on input line 68.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 70.
+(Font)              scaled to size 5.5pt on input line 68.
 
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}
 
 
 {/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}{/usr/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 72.
- (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-\T1/ntxtlf/m/n/10 Results are logged to \T1/pcr/m/n/10 run/results.csv\T1/ntxtlf/m/n/10 ; fig-ures
+Underfull \hbox (badness 3690) in paragraph at lines 83--84
+\T1/ntxtlf/m/n/10 We specif-i-cally com-pare our STFT MLE im-ple-men-ta-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-\T1/pcr/m/n/10 ops_comparison.png \T1/ntxtlf/m/n/10 and \T1/pcr/m/n/10 sdr_comparison.png
+Underfull \hbox (badness 7326) in paragraph at lines 83--84
+\T1/ntxtlf/m/n/10 tion (\T1/pcr/m/n/10 stft_v1\T1/ntxtlf/m/n/10 ) against the re-sults re-ported in [1]
  []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 82.
+(Font)              scaled to size 8.0pt on input line 90.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 90.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 90.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 90.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 90.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 90.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 90.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 90.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 90.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 90.
 LaTeX Font Info:    Font shape `OT1/minntx/b/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 90.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 90.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 90.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 90.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 90.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 90.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 90.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.0pt on input line 84.
+(Font)              scaled to size 8.0pt on input line 90.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.0pt on input line 84.
+(Font)              scaled to size 6.0pt on input line 90.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 6.0pt on input line 90.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 5.5pt on input line 90.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 85.
-<../run/ops_comparison.png, id=19, 714.0276pt x 423.984pt>
+(Font)              scaled to size 6.0pt on input line 93.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+<../run/ops_comparison.png, id=20, 714.0276pt x 423.984pt>
 File: ../run/ops_comparison.png Graphic file (type png)
 <use ../run/ops_comparison.png>
-Package pdftex.def Info: ../run/ops_comparison.png  used on input line 100.
+Package pdftex.def Info: ../run/ops_comparison.png  used on input line 124.
 (pdftex.def)             Requested size: 226.79846pt x 134.6684pt.
-<../run/sdr_comparison.png, id=21, 714.0276pt x 423.984pt>
+<../run/sdr_comparison.png, id=22, 714.0276pt x 423.984pt>
 File: ../run/sdr_comparison.png Graphic file (type png)
 <use ../run/sdr_comparison.png>
-Package pdftex.def Info: ../run/sdr_comparison.png  used on input line 107.
+Package pdftex.def Info: ../run/sdr_comparison.png  used on input line 131.
 (pdftex.def)             Requested size: 226.79846pt x 134.6684pt.
 
 
+[2{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <../run/ops_comparison.png>]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -729,25 +742,33 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[2{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc} <../run/ops_comparison.png> <../run/sdr_comparison.png>] (./dsap_icassp_report.aux)
+
+
+[3
+
+ <../run/sdr_comparison.png>] (./dsap_report.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 8031 strings out of 475171
- 115333 string characters out of 5767095
- 500768 words of memory out of 5000000
- 30889 multiletter control sequences out of 15000+600000
- 753130 words of font info for 211 fonts, out of 8000000 for 9000
+ 8038 strings out of 475171
+ 115338 string characters out of 5767095
+ 506776 words of memory out of 5000000
+ 30895 multiletter control sequences out of 15000+600000
+ 759563 words of font info for 215 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 80i,13n,93p,1164b,274s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on dsap_icassp_report.pdf (2 pages, 366357 bytes).
+ 80i,13n,93p,1157b,291s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/NewTXMI5.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txsym.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmbi.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
+Output written on dsap_report.pdf (3 pages, 380165 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
