@@ -90,15 +90,10 @@ For each configuration, we generate:
 \end{itemize}
 
 \subsection{Evaluation Pipeline}
-The test bench runs the calibration and separation pipeline for each distance. We implement both the STFT MLE and a baseline MWF. Performance is measured using:
-\begin{itemize}
-    \item \textbf{PEASS Toolkit} \cite{emiya2011}: OPS (Overall Perceptual Score), TPS (Target), IPS (Interference), and APS (Artifacts).
-    \item \textbf{BSS Eval} \cite{vincent2006}: SDR (Source-to-Distortion Ratio), SIR (Interference), and SAR (Artifacts).
-\end{itemize}
-We compare our STFT MLE implementation against the results reported in \cite{das2021} and our own MWF baseline.
+The test bench runs the calibration and separation pipeline for each distance. We implement both the STFT MLE and a baseline MWF. Performance is measured using the \textbf{PEASS Toolkit} \cite{emiya2011}: OPS (Overall Perceptual Score), TPS (Target), IPS (Interference), and APS (Artifacts). We compare our STFT MLE implementation against the results reported in \cite{das2021} and our own MWF baseline.
 
 \subsection{Quantitative Results}
-Table~\ref{tab:stft} compares our STFT MLE implementation with the reference paper's results. Our implementation achieves near-perfect reconstruction at 0.1~m (OPS 98.9), matching the reference (OPS 99). As distance increases to 0.5~m, performance degrades as expected due to stronger leakage, but our method maintains higher OPS than the Wiener baseline (Table~\ref{tab:wiener_vs_mle}).
+Table~\ref{tab:stft} compares our STFT MLE implementation with the reference paper's results. Our implementation achieves near-perfect reconstruction at 0.1~m (OPS 98.9), matching the reference (OPS 99). As distance increases to 0.5~m, performance degrades as expected due to stronger leakage. However, our method maintains competitive OPS compared to the reference, although we observe a steeper drop in Artifact-related Perceptual Score (APS) at larger distances.
 
 \begin{table}[h]
     \centering
@@ -106,13 +101,13 @@ Table~\ref{tab:stft} compares our STFT MLE implementation with the reference pap
     \label{tab:stft}
     \begin{tabular}{c|cc|cc}
         $d_{\text{mic}}$ (m) & \multicolumn{2}{c|}{Our Implementation} & \multicolumn{2}{c}{Reference~\cite{das2021}} \\
-         & OPS & SDR (dB) & OPS & APS \\
+         & OPS & APS & OPS & APS \\
         \hline
-        0.1 & \textbf{98.9} & 37.96 & 99 & 87 \\
-        0.2 & 98.4 & 33.06 & 82 & 87 \\
-        0.3 & 83.6 & 29.75 & 82 & 87 \\
-        0.4 & 56.2 & 27.73 & 60.5 & 84 \\
-        0.5 & 46.0 & 25.79 & 31 & 81 \\
+        0.1 & \textbf{98.9} & 86.7 & 99 & 87 \\
+        0.2 & 98.4 & 82.9 & 82 & 87 \\
+        0.3 & 83.6 & 62.0 & 82 & 87 \\
+        0.4 & 56.2 & 21.8 & 60.5 & 84 \\
+        0.5 & 46.0 & 23.4 & 31 & 81 \\
     \end{tabular}
 \end{table}
 
@@ -127,25 +122,18 @@ The breakdown of our own experiments (Table~\ref{tab:wiener_vs_mle}) highlights 
         (m) & OPS & TPS & OPS & TPS \\
         \hline
         0.1 & 98.9 & 92.8 & 92.0 & 88.8 \\
-        0.3 & 83.6 & 79.3 & 32.8 & 56.6 \\
+        0.3 & 83.6 & 79.4 & 32.8 & 56.6 \\
         0.5 & 46.0 & 66.8 & 41.1 & 59.4 \\
     \end{tabular}
 \end{table}
 
-Figure~\ref{fig:ops} visualizes the OPS trend. Our implementation follows the same decay curve as the reference paper, validating the correctness of our STFT optimization loop. Note that SIR is numerically unbounded in our simulation: the anechoic assumption creates an instantaneous mix that, once perfectly inverted, leaves no residual interference---only artifacts (SAR) limit the overall SDR.
+Figure~\ref{fig:ops} visualizes the OPS trend. Our implementation follows a similar decay curve to the reference paper.
 
 \begin{figure}[t]
     \centering
     \includeifexists{../run/ops_comparison.png}{width=0.9\columnwidth}
     \caption{PEASS OPS comparison: Our MLE implementation vs. Reference Paper vs. Wiener Baseline.}
     \label{fig:ops}
-\end{figure}
-
-\begin{figure}[t]
-    \centering
-    \includeifexists{../run/sdr_comparison.png}{width=0.9\columnwidth}
-    \caption{SDR trend for the recovered violin vs. mic distance.}
-    \label{fig:sdr}
 \end{figure}
 
 \subsection{Ablations and Observations}
